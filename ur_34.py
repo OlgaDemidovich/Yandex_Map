@@ -33,7 +33,7 @@ class Window(QWidget):
 
     def initUI(self):
         self.setGeometry(100, 100, *SCREEN_SIZE)
-        self.setWindowTitle('Отображение карты')
+        self.setWindowTitle('Yandex Maps')
 
         ## Изображение
         self.pixmap = QPixmap(self.map_file)
